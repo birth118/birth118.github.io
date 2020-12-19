@@ -138,7 +138,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/cabin.png"
+                src="assets/img/portfolio/common2.png"
                 alt=""
               />
             </div>
@@ -161,7 +161,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/cake.png"
+                src="assets/img/portfolio/kospi2.png"
                 alt=""
               />
             </div>
@@ -184,7 +184,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/circus.png"
+                src="assets/img/portfolio/socketio.png"
                 alt=""
               />
             </div>
@@ -207,7 +207,7 @@
               </div>
               <img
                 class="img-fluid"
-                src="assets/img/portfolio/game.png"
+                src="assets/img/portfolio/next2.png"
                 alt=""
               />
             </div>
@@ -278,25 +278,26 @@
         <div class="row">
           <div class="col-lg-4 ml-auto">
             <p class="lead">
-              I am a senior Software Engineer; Specilaised in Development and
-              Design. In many years of corporate world career, I worked in
-              various corners around Software Development Life Cycle.
+              I am a senior Software Engineer specialising in Development and
+              Design. During my corporate career, I worked in various stages of
+              Software Development Life Cycle.
             </p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p class="lead">
               As a master graduate of Computer Science, I started programming in
-              CIO office in Samsung. Then, developed package Software in IBM;
-              IBM Endpoint Manager ( <i>BigFix</i> these days) and Distributed
-              Framework. Also worked in L3 product support to fix bugs and to
-              maintain code base. Started with little C++ and deep Java, then
-              settled in Node.JSI am a self-disciplined learner.
+              the CIO office at Samsung, moving onto Package Software
+              Development in IBM - IBM Endpoint Manager (<i>BigFix</i> these
+              days), Distributed Framework and many others. I also worked in L3
+              Product Support to fix bugs and maintain code base. I started with
+              a little C++ and deep Java, then settled in Node.js.
             </p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p class="lead">
-              I am learning blockchain and crypto currency in Udemy courses
-              these days. <br /><br />I am English and Korean bi-lingual
+              I am a self-disciplined learner. I am currently learning
+              blockchain and crypto currency through Udemy. <br /><br />I am
+              fluent in English and Korean
             </p>
           </div>
         </div>
@@ -312,8 +313,9 @@
         </div> -->
       </div>
     </section>
-    <!-- Contact Section-->
-    <section class="page-section" id="contact">
+    <!-- Contact Section - *Disabled*  -->
+
+    <section class="page-section invisible" id="contact.back">
       <div class="container">
         <!-- Contact Section Heading-->
         <h2
@@ -412,6 +414,7 @@
         </div>
       </div>
     </section>
+
     <!-- Footer-->
     <footer class="footer text-center">
       <div class="container">
@@ -431,12 +434,12 @@
             <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"
               ><i class="fab fa-fw fa-facebook-f"></i
             ></a> -->
-
             <a
               class="btn btn-outline-light btn-social mx-1"
-              href="https://www.linkedin.com/in/seongsoo/"
-              ><i class="fab fa-fw fa-linkedin-in"></i
+              href="mailto:seongsoo@gmail.com?subject=Enquiry for birth118.github.io""
+              ><i class="fa fa-fw fa-envelope"></i
             ></a>
+
             <a
               class="btn btn-outline-light btn-social mx-1"
               href="https://github.com/birth118/"
@@ -447,16 +450,29 @@
               href="https://twitter.com/lompur"
               ><i class="fab fa-fw fa-twitter"></i
             ></a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://www.linkedin.com/in/seongsoo/"
+              ><i class="fab fa-fw fa-linkedin-in"></i
+            ></a>
+
           </div>
           <!-- Footer About Text-->
-          <div class="col-lg-4">
-            <h4 class="text-uppercase mb-4">About Freelancer</h4>
-            <p class="lead mb-0">
+          <div class="col-lg-4" id="contact">
+            <h4 class="text-uppercase mb-4">Contact Me</h4>
+
+            <!-- <p class="lead mb-0">
               Freelance is a free to use, MIT licensed Bootstrap theme created
               by
               <a href="http://startbootstrap.com">Start Bootstrap</a>
               .
-            </p>
+            </p> -->
+            <img
+            class="qrcode"
+            src="assets/img/portfolio/qrcode.png"
+            alt="qrcode"
+          />
+
           </div>
         </div>
       </div>
@@ -465,6 +481,13 @@
     <div class="copyright py-4 text-center text-white">
       <div class="container"><small>Copyright © Seongsoo YIM, 2020</small></div>
     </div>
+
+    <div class="attribute-div text-center">
+
+      <div class="container">MIT licensed Bootstrap theme created by
+        <a href="#">Start Bootstrap</a></div>
+    </div>
+
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <div class="scroll-to-top d-lg-none position-fixed">
       <a
@@ -502,7 +525,7 @@
                     class="portfolio-modal-title text-secondary text-uppercase mb-0"
                     id="portfolioModal1Label"
                   >
-                  Common of the Common
+                    Common of the common
                   </h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
@@ -515,18 +538,25 @@
                   <!-- Portfolio Modal - Image-->
                   <img
                     class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/cabin.png"
+                    src="assets/img/portfolio/common2.png"
                     alt=""
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-5">
-                   <i>My</i> little boastful common utility library by Typescript + Object-Oriented. It contains Express middlewares for validating authentication and custom error handling, custome error classes and messaging event for NATS Streaming. It is published in npmjs.com                 </p>
+                    Common utility library by Typescript + Object-Oriented +
+                    Microservices-friendly. <i>My pride and joy :)</i>. It
+                    contains Express middlewares for validating authentication
+                    and custom error handling with own classes, and messaging
+                    event for NATS Streaming, etc. It grows everyday. It is
+                    published in npmjs.com.
+                  </p>
                   <button class="btn btn-primary">
                     <a
-                    class="btn mx-1"
-                    href="https://github.com/birth118/" target="_blank" 
-                    ><i class="fas fa-fw"></i>
-                    Source Code</a>
+                      class="btn mx-1"
+                      href="https://github.com/birth118/"
+                      target="_blank"
+                      ><i class="fas fa-fw"></i> Source Code</a
+                    >
                   </button>
 
                   <!-- <a
@@ -534,7 +564,6 @@
                   href="https://twitter.com/lompur"
                   ><i class="fab fa-fw fa-twitter"></i
                 ></a> -->
-
                 </div>
               </div>
             </div>
@@ -583,20 +612,26 @@
                   <!-- Portfolio Modal - Image-->
                   <img
                     class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/cake.png"
+                    src="assets/img/portfolio/kospi2.png"
                     alt=""
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-5">
-                    Stock portfolio of personal invest in KOSPI. Hosted in the world-generous Heroku Cloud Platform. It uses Google OAuth2 API, Bootstrap4,
-                    FX rate API and Atals MongoDB. Very primiteve and humble, but useful impementation. Massive improvement is required <i>to be honest :)</i>
+                    Stock portfolio of personal investment in KOSPI. Hosted on
+                    Heroku Cloud Platform (Thank you Heroku). It uses Google
+                    OAuth2 API, Bootstrap4, FX rate API, and Atals MongoDB. Very
+                    primiteve and humble, but useful impementation. Half-baked
+                    and humble, but effective implementation. (<i
+                      >Currently working on makor improvements</i
+                    >)
                   </p>
-                  <button class="btn btn-primary" >
+                  <button class="btn btn-primary">
                     <a
-                    class="btn mx-1"
-                    href="http://yim-kospi.herokuapp.com/" target="_blank" 
-                    ><i class="fas fa-fw"></i>
-                    Go to the site</a>
+                      class="btn mx-1"
+                      href="http://yim-kospi.herokuapp.com/"
+                      target="_blank"
+                      ><i class="fas fa-fw"></i> Go to the site</a
+                    >
                   </button>
                 </div>
               </div>
@@ -646,19 +681,22 @@
                   <!-- Portfolio Modal - Image-->
                   <img
                     class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/circus.png"
+                    src="assets/img/portfolio/socketio.png"
                     alt=""
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-5">
-                    A course project of Socket.IO chat <i>serverless</i> desktop version. It uses Socket.IO with bunch of custom events and callbacks along the browser-based location.
+                    A course project of Socket.IO chat <i>serverless</i> desktop
+                    version. Based on Socket.IO, I added custom events and
+                    callbacks along the browser-based location.
                   </p>
                   <button class="btn btn-primary">
                     <a
-                    class="btn mx-1"
-                    href="https://github.com/birth118/node3-chat-app" target="_blank" 
-                    ><i class="fas fa-fw"></i>
-                    Source Code</a>
+                      class="btn mx-1"
+                      href="https://github.com/birth118/node3-chat-app"
+                      target="_blank"
+                      ><i class="fas fa-fw"></i> Source Code</a
+                    >
                   </button>
                 </div>
               </div>
@@ -667,6 +705,7 @@
         </div>
       </div>
     </div>
+
     <!-- Portfolio Modal 4-->
     <div
       class="portfolio-modal modal fade"
@@ -695,7 +734,7 @@
                     class="portfolio-modal-title text-secondary text-uppercase mb-0"
                     id="portfolioModal4Label"
                   >
-                    Controller
+                    Comming soon...
                   </h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
@@ -708,16 +747,13 @@
                   <!-- Portfolio Modal - Image-->
                   <img
                     class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/game.png"
+                    src="assets/img/portfolio/next2.png"
                     alt=""
                   />
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
+                    The 4th portfolio is comming soon. It would be mobile
+                    front-end with React Native.
                   </p>
                   <button class="btn btn-primary" data-dismiss="modal">
                     <i class="fas fa-times fa-fw"></i>
@@ -730,132 +766,7 @@
         </div>
       </div>
     </div>
-    <!-- Portfolio Modal 5-->
-    <!-- <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal5"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal5Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal5Label"
-                  >
-                    Locked Safe
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/safe.png"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Portfolio Modal 6-->
-    <!-- <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal6"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="portfolioModal6Label"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-          <button
-            class="close"
-            type="button"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true"><i class="fas fa-times"></i></span>
-          </button>
-          <div class="modal-body text-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                    id="portfolioModal6Label"
-                  >
-                    Submarine
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/submarine.png"
-                    alt=""
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Mollitia neque assumenda ipsam nihil, molestias magnam,
-                    recusandae quos quis inventore quisquam velit asperiores,
-                    vitae? Reprehenderit soluta, eos quod consequuntur itaque.
-                    Nam.
-                  </p>
-                  <button class="btn btn-primary" data-dismiss="modal">
-                    <i class="fas fa-times fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
+
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
